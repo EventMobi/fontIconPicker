@@ -10,8 +10,10 @@
     "type": "git",
     "url": "https://github.com/EventMobi/fontIconPicker.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.eventmobi.com"
+  },
   "dependencies": {
     "jquery": "^2.1.4"
-  },
-  "private": true
+  }
 }
