@@ -1,5 +1,5 @@
 /**
- *  jQuery fontIconPicker - v2.0.0
+ *  jQuery fontIconPicker - v2.0.1
  *
  *  An icon picker built on top of font icons and jQuery
  *
@@ -45,9 +45,9 @@
 							'<span class="selected-icon">' +
 								'<i class="fip-icon-block"></i>' +
 							'</span>' +
-							'<span class="selector-button">' +
+							'<button class="btn selector-button">' +
 								'<i class="fip-icon-down-dir"></i>' +
-							'</span>' +
+							'</button>' +
 						 '</div>' +
 						 '<div class="selector-popup" style="display: none;">' + ((this.settings.hasSearch) ?
 							 '<div class="selector-search">' +
@@ -636,7 +636,7 @@
 				}, this));
 
 				// Set the icon box
-				$('<span/>', {
+				$('<button/>', {
 					html:      '<i data-fip-value="' + item + '" ' + (this.settings.useAttribute ? (this.settings.attributeName + '="' + ( this.settings.convertToHex ? '&#x' + parseInt(item, 10).toString(16) + ';' : item ) + '"') : 'class="' + item + '"') + '></i>',
 					'class':   'fip-box',
 					title: flipBoxTitle
