@@ -1,5 +1,5 @@
 {
-  "name": "fontIconPicker",
+  "name": "@eventmobi/font-icon-picker",
   "version": "2.0.1",
   "description": " jQuery plugin which allows you to include a simple icon picker with search and pagination inside your administration forms",
   "main": "jquery.fonticonpicker.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/EventMobi/fontIconPicker.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.eventmobi.com"
   },
   "dependencies": {
     "jquery": "^2.1.4"
